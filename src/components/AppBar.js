@@ -27,7 +27,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static" style={{background: '#e8a04c'}}>
+    <AppBar position="static" style={{background: '#bd0000'}}>
       <Container maxWidth="xl">
         <Toolbar
           disableGutters
@@ -56,7 +56,7 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Skill Based Games
           </Typography>
 
           <Box>

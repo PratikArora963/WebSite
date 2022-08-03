@@ -9,7 +9,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
-
+import homeBanner from '../assets/home-banner.png'
 const Content = () => {
   return (
     <Box
@@ -27,17 +27,13 @@ const Content = () => {
         <CardActionArea>
           <CardMedia
             component="img"
-            height="140"
-            image="https://mui.com/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"
+            // height="140"
+            image={homeBanner}
+            alt="snakes and ladder"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Lizard
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              Snakes and Ladder
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -366,6 +362,9 @@ const Content = () => {
         <AccordionDetails>
           <Typography variant="body2" color="text.secondary">
             <b>Write to us at:</b> arorapratik963@gmail.com
+            <br />
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
             <b>Mobile:</b> 84850 46957
             <br />
           </Typography>
