@@ -16,7 +16,7 @@ const SnakeAndLadder = () => {
       sx={{
         background: "transparent",
         color: "white",
-        padding: "0.2rem",
+        padding: "0 0.2rem",
         textAlign: "center",
         display: "flex",
         flexDirection: "column",
@@ -24,10 +24,9 @@ const SnakeAndLadder = () => {
         alignItems: "center",
         justifyContent: "space-between",
         height:'calc(100vh - 64px)',
-        paddingBottom: '0.5rem',
       }}
     >
-      <Card>
+      <Card style={{marginTop: '0.7rem'}}>
         <CardActionArea>
           <CardMedia component="img" image={banner} alt="snakes and ladder" />
         </CardActionArea>
@@ -55,6 +54,7 @@ const SnakeAndLadder = () => {
           fontSize: "1.5rem",
           fontWeight: "600",
           background: "black",
+          marginBottom:'1rem'
         }}
       >
         Coming Soon ...

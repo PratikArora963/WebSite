@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 code {
@@ -42,7 +45,6 @@ code {
   position: relative;
 }
 .container{
-  width: 100vw;
   height: calc(100vh - 64px);
   overflow: hidden;
   position: absolute;

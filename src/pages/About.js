@@ -21,7 +21,7 @@ const About = ({setShowPolicy}) => {
         gutterBottom
         variant="p"
         component="div"
-        style={{ paddingTop: "1rem", fontSize: "1.2rem" }}
+        style={{ paddingTop: "2rem", fontSize: "1.2rem" }}
       >
         Skill Based Games is a company Registered in Gondia Maharashtra. With
         his team, our founder Mr. Pratik Arora has been keenly involved in
