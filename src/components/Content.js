@@ -1,15 +1,13 @@
 import React from "react";
-import { Box } from "@mui/material";
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Box,
+  Typography,
+} from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import { CardActionArea } from "@mui/material";
-import homeBanner from '../assets/home-banner.png'
+
 const Content = () => {
   return (
     <Box
@@ -23,21 +21,6 @@ const Content = () => {
         gap: "1rem",
       }}
     >
-      <Card>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            // height="140"
-            image={homeBanner}
-            alt="snakes and ladder"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Snakes and Ladder
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
